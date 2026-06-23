@@ -90,7 +90,7 @@ export const services = [
 export const aboutContent = {
   headline: "Hi, I'm Claire.",
   intro:
-    "I'm Claire, a marketing specialist with 13 years across fintech, AI, hospitality-tech, and global consumer brands. I don't separate thinking from doing. I set the direction, then ship the work.",
+    "Marketing specialist with 13+ years across fintech, AI, hospitality-tech, and global consumer brands. Based in Spain, working remotely across EU, UK, US, and APAC. I don't separate thinking from doing — I set the direction, then ship the work.",
   stats: [
     { value: 13, suffix: "+", label: "Years Experience" },
     { value: 3.5, prefix: "£", suffix: "M+", label: "Quarterly Volume Managed" },
@@ -121,39 +121,53 @@ export const aboutContent = {
   ],
   timeline: [
     {
-      role: "Marketing Specialist, Philippines Hub",
-      company: "TransferGo",
-      period: "Apr 2026 to Present",
+      role: "Community Manager / Marketing Consultant",
+      company: "AirDoctor",
+      period: "Jun 2025 – Present",
       description:
-        "Owned end-to-end marketing for the PH remittance corridor. Led embassy-backed activations, broadcast partnerships (ABS-CBN/TFC), and closed partnerships with GCash, OWWA, and FNAG.",
-    },
-    {
-      role: "Community Development Manager",
-      company: "TransferGo",
-      period: "Mar 2022 to Apr 2026",
-      description:
-        "Built the Filipino diaspora growth channel from zero across EU & UK. Managed influencer partnerships, events budget, and KPI reporting to leadership.",
+        "Marketing consultant for a travel health-tech app connecting travelers with local doctors worldwide. Run social audits, develop content strategy and creative, build community channels (travel, expat, digital-nomad), and source UGC and creator collaborations for community-led storytelling.",
     },
     {
       role: "Content & Growth Marketing Manager",
       company: "CPDash.AI",
-      period: "2026 to Present",
+      period: "2026 – Present",
       description:
-        "Own content and growth strategy for an AI SaaS product. Build organic growth engine across LinkedIn, X, and email.",
+        "Own content and growth strategy for an AI SaaS product — positioning, editorial calendar, and channel mix. Build the organic growth engine across LinkedIn, X, and email; develop conversion copy and A/B test hooks, CTAs, and offers.",
     },
     {
-      role: "Operations & Admin Manager",
-      company: "dineoutwith.us",
-      period: "Oct 2021 to Dec 2025",
+      role: "Marketing Specialist, Philippines Hub",
+      company: "TransferGo",
+      period: "Apr 2026 – Jun 2026",
       description:
-        "Supported marketing operations, designed workflows, SOPs, and cross-department KPI systems.",
+        "Owned end-to-end marketing for the PH remittance corridor (£3.5M+ quarterly, 35K+ transactions in 90 days). Led embassy-backed activations, the ABS-CBN/TFC broadcast partnership, and closed partnerships with GCash, OWWA, and FNAG.",
+    },
+    {
+      role: "Community Development Manager",
+      company: "TransferGo",
+      period: "Mar 2022 – Apr 2026",
+      description:
+        "Built the Filipino diaspora growth channel from zero across EU & UK — work that earned promotion to full-time Marketing Specialist. Led influencer partnerships, event sponsorships, embassy/consulate relations, and monthly KPI reporting to leadership.",
+    },
+    {
+      role: "Operations & Administrative Manager",
+      company: "dineoutwith.us",
+      period: "Oct 2021 – Dec 2025",
+      description:
+        "Supported marketing operations including email campaigns and cross-functional growth. Designed end-to-end workflows, SOPs, and cross-department KPI systems.",
+    },
+    {
+      role: "Sales & Marketing Manager",
+      company: "Perkchops",
+      period: "Mar 2020 – Oct 2021",
+      description:
+        "Led social and digital marketing strategy across organic and paid channels. Managed paid acquisition on Google Ads and Meta; conducted competitive and SWOT analysis to guide positioning.",
     },
     {
       role: "Earlier Career",
       company: "",
       period: "",
       description:
-        "Business ownership in Ukraine and Philippines. Hospitality, sales, and events across Qatar, UAE, and the Philippines.",
+        "Business ownership in Ukraine and the Philippines. Hospitality, sales, marketing, and events across Qatar, UAE, and the Philippines.",
     },
   ],
   tools: [
@@ -161,9 +175,8 @@ export const aboutContent = {
     "Google Ads",
     "Google Analytics",
     "Amplitude",
-    "HubSpot",
-    "Klaviyo",
-    "TikTok Ads",
+    "Brevo",
+    "Insightly",
     "Notion",
     "Jira",
     "Asana",
@@ -171,6 +184,15 @@ export const aboutContent = {
     "Canva",
     "Figma",
     "Claude / AI",
+    "Tableau",
+    "AppsFlyer",
+  ],
+  certifications: [
+    "Google AI Professional Certificate",
+    "Claude 101",
+    "Google Ads Search Certification",
+    "Fundamentals of Digital Marketing",
+    "Professional Networking · LinkedIn Learning",
   ],
   education:
     "BS Hotel & Restaurant Institutional Management · De La Salle College of Saint Benilde, Manila",

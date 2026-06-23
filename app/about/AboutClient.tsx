@@ -164,9 +164,9 @@ export default function AboutClient() {
         </div>
       </section>
 
-      {/* Education */}
+      {/* Education & Certifications */}
       <section className="bg-white border-t border-gray-100">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12 space-y-8">
           <AnimatedSection>
             <div className="text-center">
               <p className="text-xs uppercase tracking-wider text-muted mb-2 font-semibold">
@@ -175,6 +175,25 @@ export default function AboutClient() {
               <p className="text-sm text-charcoal">{data.education}</p>
             </div>
           </AnimatedSection>
+          {data.certifications && data.certifications.length > 0 && (
+            <AnimatedSection>
+              <div className="text-center">
+                <p className="text-xs uppercase tracking-wider text-muted mb-3 font-semibold">
+                  Certifications
+                </p>
+                <div className="flex flex-wrap justify-center gap-2">
+                  {data.certifications.map((cert) => (
+                    <span
+                      key={cert}
+                      className="inline-block bg-cream text-charcoal text-xs font-medium px-3 py-1.5 rounded-full border border-gray-100"
+                    >
+                      {cert}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </AnimatedSection>
+          )}
         </div>
       </section>
 
